@@ -22,7 +22,7 @@ time.sleep(1)
 housecard1 = random.choice(cardsdrawn)          # generating house's 2 initial cards
 housecard2 = random.choice(cardsdrawn)
 housecardvalue = housecard1 + housecard2     # summing cards for calculations
-print("Face up on the table, you can see the house has",housecard1, "and another card facing down.")       
+print("Face up on the table, you can see the house has",housecard1, "and another card facing down. ")       
 time.sleep(1)
 choice = input("Make your choice\n[h] = Hit\n[s] = Stand")
 while choice1 != "s":       # loops until user goes bust or has standed (stood?) using "s"
